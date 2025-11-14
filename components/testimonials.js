@@ -5,7 +5,7 @@ export default function Testimonials(targetId = "app") {
   root.insertAdjacentHTML(
     "beforeend",
     `
-  <section class="relative bg-brand-pink/70 text-slate-800">
+  <section class="relative bg-[#e3e4db] text-slate-800">
     <!-- subtle watermark circle -->
     <div class="pointer-events-none absolute inset-0 [background:radial-gradient(ellipse_at_center,rgba(255,255,255,0.25)_0%,rgba(255,255,255,0)_60%)]"></div>
     <div class="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16 sm:py-20">
